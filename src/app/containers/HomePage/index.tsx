@@ -9,7 +9,6 @@ import { Marginer } from "../../components/marginer";
 import { AboutUs } from "./aboutUs";
 
 
-
 const PageContainer = styled.div`
  ${tw`
  flex
@@ -30,6 +29,9 @@ export function HomePage(){
    < BookCard />
    <Marginer direction="vertical" margin="4em" />
   < BookingSteps />
+  <Marginer direction="vertical" margin="4em" />
   < AboutUs />
+  <Marginer direction="vertical" margin="4em" />
+
   </PageContainer>
 }
