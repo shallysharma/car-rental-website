@@ -174,7 +174,7 @@ export function TopCars() {
                     options: {
                       numberOfSlides: 1,
                     },
-                  },
+                  },z
                 ],
               },
               900: {
