@@ -130,7 +130,7 @@ const Seperator = styled.div`
 
 const RentButton = styled(Button)`
   ${tw`
-    min-w-full
+    min-w-ful
     mt-5
   `};
 `;
